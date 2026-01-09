@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/DAY_1/">
+    <Project Path="Program_1/Program_1.csproj" />
+    <Project Path="Program_2/Program_2.csproj" />
+    <Project Path="Program_3/Program_3.csproj" />
+    <Project Path="Program_4/Program_4.csproj" />
+    <Project Path="P{rogram_5/P{rogram_5.csproj" />
+  </Folder>
+</Solution>
