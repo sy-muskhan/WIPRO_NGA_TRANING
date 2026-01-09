@@ -6,4 +6,7 @@
     <Project Path="Program_4/Program_4.csproj" />
     <Project Path="P{rogram_5/P{rogram_5.csproj" />
   </Folder>
+  <Folder Name="/DAY_2/">
+    <Project Path="Day2_Programs/Day2_Programs.csproj" Id="5f249556-7457-4a94-a086-e00a267d8373" />
+  </Folder>
 </Solution>
