@@ -36,7 +36,7 @@ namespace Day2_Programs
                 return "Fail";
             }
         }
-        public static void Main1(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Implementing Functions in C#");
             Program3_Functions program = new Program3_Functions();

@@ -9,4 +9,6 @@
   <Folder Name="/DAY_2/">
     <Project Path="Day2_Programs/Day2_Programs.csproj" Id="5f249556-7457-4a94-a086-e00a267d8373" />
   </Folder>
+  <Project Path="BankAccountManagementSystem-DAY3/BankAccountManagementSystem-DAY3.csproj" Id="46356007-a975-4aae-8ff9-9b8fba6a4775" />
+  <Project Path="DAY_3/DAY_3.csproj" Id="411e8e8c-cef8-45a4-9ab6-ae9735e9476a" />
 </Solution>

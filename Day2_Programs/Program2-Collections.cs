@@ -9,7 +9,7 @@ namespace Day2_Programs
 {
     internal class Program2_Collections
     {
-        public static void Main1(string[] args)
+        public static void Main(string[] args)
         {
             // Collections in C# are data structures that allow you to store, manage, and manipulate groups of related objects. 
             // They provide more flexibility and functionality compared to arrays, making them suitable for various scenarios where dynamic sizing and advanced operations are required.
