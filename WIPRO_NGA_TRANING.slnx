@@ -13,6 +13,7 @@
   <Project Path="../Calculator_App/Calculator_App/Calculator_App.csproj" />
   <Project Path="../Calculator_App/TestProject1/TestProject1.csproj" />
   <Project Path="BankAccountManagementSystem-DAY3/BankAccountManagementSystem-DAY3.csproj" Id="46356007-a975-4aae-8ff9-9b8fba6a4775" />
+  <Project Path="DAY_10/DAY_10.csproj" Id="489822f4-dcd4-49c0-b7f4-5c7133e6e4c1" />
   <Project Path="DAY_3/DAY_3.csproj" Id="411e8e8c-cef8-45a4-9ab6-ae9735e9476a" />
   <Project Path="DAY_4/DAY_4.csproj" Id="c467c3a4-5ce6-4178-b0f2-3b288b53b01b" />
   <Project Path="DAY_5/DAY_5.csproj" Id="cdbfa314-7416-49ac-a8df-82e9ca3ef4e4" />
