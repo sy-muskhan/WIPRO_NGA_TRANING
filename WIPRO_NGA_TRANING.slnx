@@ -9,10 +9,11 @@
   <Folder Name="/DAY_2/">
     <Project Path="Day2_Programs/Day2_Programs.csproj" Id="5f249556-7457-4a94-a086-e00a267d8373" />
   </Folder>
-  <Project Path="../../Assignment1/LibraryManagementSystem/LibraryManagementSystem.csproj" Id="2c8c4576-58a4-495d-9eaa-2825fa5c86be" />
   <Project Path="../Calculator_App/Calculator_App/Calculator_App.csproj" />
   <Project Path="../Calculator_App/TestProject1/TestProject1.csproj" />
   <Project Path="BankAccountManagementSystem-DAY3/BankAccountManagementSystem-DAY3.csproj" Id="46356007-a975-4aae-8ff9-9b8fba6a4775" />
+  <Project Path="DAY_10.1/DAY_11.csproj" Id="62dbb303-9b7b-4f15-a5b1-ab7f394eb0d5" />
+  <Project Path="DAY_10.2/DAY_10.1.csproj" Id="4c3717e0-011e-4665-a1cf-a17ea4e13e3f" />
   <Project Path="DAY_10/DAY_10.csproj" Id="489822f4-dcd4-49c0-b7f4-5c7133e6e4c1" />
   <Project Path="DAY_3/DAY_3.csproj" Id="411e8e8c-cef8-45a4-9ab6-ae9735e9476a" />
   <Project Path="DAY_4/DAY_4.csproj" Id="c467c3a4-5ce6-4178-b0f2-3b288b53b01b" />
@@ -20,5 +21,7 @@
   <Project Path="DAY_6/DAY_6.csproj" Id="f548d1b4-9dd3-4c29-b609-44238b692548" />
   <Project Path="DAY_7/DAY_7.csproj" Id="dc9331df-daf8-45ee-b8d1-c2563ccac8e3" />
   <Project Path="DAY_8/DAY_8.csproj" Id="8b54cd5f-1ad4-446c-9807-0ba614d67543" />
+  <Project Path="LibraryManagement.Tests/LibraryManagement.Tests.csproj" Id="d18eefc5-e3ce-406d-87a5-e6d7c4e78798" />
+  <Project Path="LibraryManagement/LibraryManagement.csproj" Id="d6d919d6-7439-4166-8a15-211201aec8d4" />
   <Project Path="UnitTesting_CalculatorApp/DAY_9.csproj" Id="d003e010-deb0-41c4-b314-8301b9b70cdd" />
 </Solution>
