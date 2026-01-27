@@ -1,0 +1,72 @@
+/* Header */
+.hero {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Section box */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: #0f0105;
+}
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+}
