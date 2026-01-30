@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.subject {
+    margin-bottom: 8px;
+}
+
+.pass {
+    color: green;
+    font-weight: bold;
+}
+
+.fail {
+    color: red;
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.overall {
+    margin-top: 10px;
+    font-size: 18px;
+}
