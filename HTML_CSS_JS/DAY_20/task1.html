@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch Employees Data</title>
+</head>
+<body>
+
+<script>
+
+    // Example API given in task may sometimes return 404
+    // So a working public JSON API is used for demonstration
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(response => response.json())
+        .then(data => {
+            console.log("Employee Data:", data);
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+</script>
+
+</body>
+</html>
+

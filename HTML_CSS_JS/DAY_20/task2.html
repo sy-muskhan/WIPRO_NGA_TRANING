@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random User Fetch</title>
+
+    <!-- Simple styling for better look -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        img {
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h2>Random User Generator</h2>
+
+    <!-- Button: when clicked, getUser() function is called -->
+    <button onclick="getUser()">Get Random User</button>
+
+    <!-- This div is used to display user details -->
+    <div id="userInfo"></div>
+
+    <script>
+        // Function that runs when button is clicked
+        function getUser() {
+
+            // Fetch data from Random User API
+            fetch("https://randomuser.me/api/")
+
+            // Convert the response into JSON format
+            .then(response => response.json())
+
+            // Access the fetched data
+            .then(data => {
+
+                // Get the first user from results array
+                let user = data.results[0];
+
+                // Extract required details
+                let name = user.name.first + " " + user.name.last;
+                let email = user.email;
+                let image = user.picture.large;
+
+                // Display user details on the webpage
+                document.getElementById("userInfo").innerHTML = `
+                    <h3>${name}</h3>
+                    <p>${email}</p>
+                    <img src="${image}" width="150">
+                `;
+            })
+
+            // Handle any errors
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        }
+    </script>
+
+</body>
+</html>
