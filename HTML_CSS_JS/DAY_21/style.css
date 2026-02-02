@@ -1,0 +1,100 @@
+/* ====== General Page Styling ====== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ====== Heading ====== */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* ====== Event List ====== */
+#eventList {
+  list-style: none;
+  padding: 0;
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+#eventList li {
+  background-color: #ffffff;
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: background-color 0.2s;
+}
+
+#eventList li:hover {
+  background-color: #f0f0f0;
+}
+
+#eventList li.selected {
+  background-color: #dbeafe;
+  border-color: #3b82f6;
+  font-weight: bold;
+}
+
+/* ====== Event Details Box ====== */
+#eventDetails {
+  background-color: #ffffff;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+#eventDetails h3 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+#eventDetails p {
+  margin: 6px 0;
+  color: #444;
+}
+
+/* ====== Buttons ====== */
+button {
+  padding: 8px 14px;
+  margin: 6px 4px 0 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#registerBtn {
+  background-color: #22c55e;
+  color: white;
+}
+
+#registerBtn:hover {
+  background-color: #16a34a;
+}
+
+#unregisterBtn {
+  background-color: #ef4444;
+  color: white;
+}
+
+#unregisterBtn:hover {
+  background-color: #dc2626;
+}
+
+#addEventBtn {
+  display: block;
+  margin: 20px auto;
+  background-color: #3b82f6;
+  color: white;
+}
+
+#addEventBtn:hover {
+  background-color: #2563eb;
+}
