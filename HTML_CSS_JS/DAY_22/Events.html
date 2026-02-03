@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Event Delegation-->
+    <div id="event-delegation">
+        <h2>Event Delegation Example</h2>
+        <ul id="itemList">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button id="addItem">Add Item</button>
+    </div>
+    <script>
+  // Get the parent UL element
+  const itemList = document.getElementById("itemList");
+
+  // Event delegation: add ONE listener to parent
+  itemList.addEventListener("click", function (event) {
+    if (event.target.tagName === "LI") {
+      alert("You clicked: " + event.target.textContent);
+    }
+  });
+
+  // Add new list items dynamically
+  const addItemBtn = document.getElementById("addItem");
+  let count = 4;
+
+  addItemBtn.addEventListener("click", function () {
+    const li = document.createElement("li");
+    li.textContent = "Item " + count;
+    itemList.appendChild(li);
+    count++;
+  });
+</script>
+</body>
+</html>

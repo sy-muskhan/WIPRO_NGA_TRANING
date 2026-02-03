@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //const to hold json data
+        const studentJSON = `{
+            "students": [
+                {"name": "Alice", "age": 20, "major": "Computer Science"},
+                {"name": "Bob", "age": 22, "major": "Mathematics"},
+                {"name": "Charlie", "age": 21, "major": "Physics"}
+            ]
+        }`;
+        const data = JSON.parse(studentJSON);
+        data.students.forEach(student => {
+            document.write(`Name: ${student.name}, Age: ${student.age}, Major: ${student.major}<br>`);
+        });
+        //uuse of DOM to display json data
+        const container = document.createElement('div');
+        data.students.forEach(student => {
+            const studentDiv = document.createElement('div');
+            studentDiv.textContent = `Name: ${student.name}, Age: ${student.age}, Major: ${student.major}`;
+            container.appendChild(studentDiv);
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with JSON</title>
+</head>
+<body>
+
+<h2> Create a webpage to read JSON data </h2>
+
+<script>
+    const studentsJSON = `
+    [
+        { "id": 1, "name": "Anil", "course": "JavaScript" },
+        { "id": 2, "name": "Sunil", "course": "Python" },
+        { "id": 3, "name": "Rahul", "course": "Data Engineering" }
+    ]
+    `;
+
+    // Here we are using JSON.parse to convert JSON data into object
+    // JSON conversion is necessary to access data in JSON format
+    // JSON.stringify is used to convert object into JSON format which is done while sending data to server
+
+    const students = JSON.parse(studentsJSON);
+
+    students.forEach(student => {
+        console.log(`ID: ${student.id}, Name: ${student.name}, Course: ${student.course}`);
+//Logging each student's details to the console
+//We can also use DOM manipulation to display this data on the webpage
+//Creating HTML tags dynamically using js code
+        const studentDiv = document.createElement('div');
+        studentDiv.innerHTML = `<strong>ID:</strong> ${student.id}, <strong>Name:</strong> ${student.name}, <strong>Course:</strong> ${student.course}`;
+        document.body.appendChild(studentDiv);
+    });
+</script>
+
+</body>
+</html>
