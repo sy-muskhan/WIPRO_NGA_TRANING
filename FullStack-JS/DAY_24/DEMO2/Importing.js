@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ClassCalculator_1 = require("./ClassCalculator");
+var num1 = 20;
+var num2 = 5;
+var addition = ClassCalculator_1.Calculator.add(num1, num2);
+console.log("Addition: ".concat(addition));
+var result2 = ClassCalculator_1.Calculator.multiply(8, 4);
+console.log("Multiplication: ".concat(result2));
+var result3 = ClassCalculator_1.Calculator.subtract(15, 7);
+console.log("Subtraction: ".concat(result3));
+var result4 = ClassCalculator_1.Calculator.divide(20, 4);
+console.log("Division: ".concat(result4));

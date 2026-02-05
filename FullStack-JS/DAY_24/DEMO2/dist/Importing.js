@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const ClassCalculator_1 = require("./ClassCalculator");
+TextMetrics;
+const num1 = 20;
+const num2 = 5;
+const addition = ClassCalculator_1.Calculator.add(num1, num2);
+console.log(`Addition: ${addition}`);
+const result2 = ClassCalculator_1.Calculator.multiply(8, 4);
+console.log(`Multiplication: ${result2}`);
